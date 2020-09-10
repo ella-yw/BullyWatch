@@ -1,0 +1,141 @@
+<?php
+	session_start();
+	$_SESSION['hello'] = "hello";
+	session_unset();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script type = "text/javascript">
+
+	function development() {
+		alert("Coming Soon!!");
+	}
+	
+	
+</script>
+<style>
+a { cursor: pointer; }
+
+</style>
+<title>About</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style_about.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/script.js"></script> 
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+
+<script>
+       
+ $(window).load(function(){
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});  
+ }); 
+</script>
+ 
+</head>
+<body>
+<div style = "margin:0 auto">
+<!--==============================
+              header
+=================================-->
+<header >
+  <section id="stuck_container">
+  <!--==============================
+              Stuck menu
+  =================================-->
+    <div>
+
+          <nav class = "isStuck" >
+         <div class = "center">
+			  <b><span id = "main_heading" >
+           <div style="padding-top:20px;padding-bottom:10px;line-height:35px;color:white;font-size:45px;font-family:'Trebuchet MS', Helvetica, sans-serif;">Stop Being Bullied</div>
+</span></b><div id = "description_heading" style="font-family:'Trebuchet MS', Helvetica, sans-serif;font-size:12px;">This is a web application that allows an easy-to-use bullying reporting system where a bullied victim can confidentially report an incident that would have happened to him/her. On those incidents, it permits teachers to take accountable actions, who can choose to place the bully under continuous or periodic monitoring through various behavior monitoring parameters, which produce an auto-generated rating graphically represented. As an addition, many levels of administration have been incorporated - School Administrators, School District Administrators, Province Administrators and Country Administrators, who are given, appropriate user rights, such as filtered reports, and master data. This web application has the potential to help kids who are constantly getting bullied by providing a safe place for bullied victims to report such incidents knowing an action would be taken right away. </div>
+         </div>
+             
+
+	</ul>
+            </nav>
+			
+			</div>    
+  </section>
+      <div style = "margin-right:50px;float:right">
+   <div style="position:fixed" >
+   <br/>
+            <a id = "social_linkedin" style="text-decoration:none" href="https://www.linkedin.com/company/stop-being-bullied" class="fa fa-linkedin-square"></a>
+          
+            
+</div>
+</div>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/basic.css" rel="stylesheet" />
+        </head>
+<body>
+    <div id="wrapper">
+       
+        <nav class="navbar-default navbar-side" id = "nav"  role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                   <li>
+                        <a href="main.php"><i class="fa fa-dashboard "></i>Home</a>
+                    </li>
+                    <li>
+                        <a class="active-menu" href="about.html"><i class="fa fa-desktop"></i>About </a>
+                    </li>
+					<!--<li>
+                        <a onclick = "development()" ><i class="fa fa-info-circle fa-spin"></i>Bullying Facts</a>
+                    </li>
+                     <li>
+                        <a><i class="fa fa-cog fa-spin"></i>Soggestions For: </a>
+						 <li>
+                       
+                    <ul class="nav nav-second-level">
+                            <li> <a style = "color:yellow; font-weight:900" onclick = "development()"><span class="fa fa-male"></span><i class="fa fa-female"></i>Parents/Guardians</a> </li>
+								<li> <a style = "color:yellow; font-weight:900" onclick = "development()" ><i class="fa fa-users"></i>Community</a> </li>
+                           
+							<li>
+                                <a style = "color:yellow; font-weight:900"><i class="fa fa-graduation-cap "></i>Students</a>
+								<ul> <a style = "text-decoration:none;color:green; font-weight:bold" onclick = "development()"><i class="fa fa-child "></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>Kids</b></a> </ul>
+								<ul> <a style = "text-decoration:none;color:green; font-weight:bold" onclick = "development()"><i class="fa fa-child "></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>Youth</b></a> </ul>
+                           </li>
+                            
+								
+                        </ul>
+                    </li>
+                         
+                    </li> -->
+					</ul>
+                  
+            </div>
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+<div class = "about" style="font-family:Sans-Serif"><br/><br/><br/>
+<span style = "font-size:45px">About</span><br/><span style = "font-size:16px"><br/>Many kids today are getting bullied physically or emotionally. Informal complaints are made to classroom teachers and administrative staff on a regular basis and even though they do their best to control such bullies, in most cases the bullies still don’t stop bullying (per my personal experience), and nothing more accountable comes out of it. Therefore, I decided to take the initiative to develop something which can help the community. <br/><br/>The purpose of this project is to help school parties in various different ways by making a reporting and tracking system for students who are constantly being bullied or bullying others, using a web application. This system obviously will help a victim of bullying by allowing him/her to confidentially report an incident, along with the parents who will also be given the right to report on their child’s behalf. It will also help a potential bully’s parents to know their child’s unacceptable actions with respect to bullying. This system will also help the school administration keep track of the victims and bullies through statistical data, and easily manage (add, view, update) the background master data through appropriate easy-to-use master forms. <br/><br/>With respect to the current website, students can indeed electronically report a bullying incident via any internet enabled device 24/7. An email is successfully generated to inform the respective school administrator and the bully’s parents, about the incident, which then can be assigned to teachers to take actions, and successfully monitor a bully’s behavior in a professional way. The rest of the intended functionalities are fully functional, as well. <br/><br/>
+Currently, this web application is hosted with ghost login credentials & data to show and test the functionality. As a conclusion this system works properly, and proves itself to be an efficient solution to all sorts of bullying issues by effective reporting, incident assigning, action taking and behavior monitoring mechanisms, and serves well for the initial intended purpose of helping out bullying victims. This website has been designed to be fully compatible with wide range of internet enabled devices. Further it is tested to work in almost all popular browsers, and it provides a platform where anyone can go and register their issues with respect to bullying. In reality, (according to me) to use this web application every student will use his Student ID /Pupil No. as his/her Login ID and a password. If the school administration hesitates to publicize the pupil’s Student ID then some ghost unique ID can also be created to ensure privacy of Student ID, and the required password is currently been  auto-generated via this system itself, but can alternatively be provided by the school administration, also. Evidently this project has tons of potential to benefit the community, and to be improved further, therefore I would welcome any suggestions that can enhance this system.
+<br/><br/>
+Though this system is not yet being used in local schools of the country, I strongly believe it can (though the Ministry of Education will have to accept it first). 
+Through the course of making this application, I have gained the real time experience of making a web based project. The most time taking and challenging part for me was to analyze and formulate its design along with to learn the multiple web technologies: PHP, MySQL, HTML, CSS, JavaScript, AJAX, for its implementation. 
+This project is a novel approach to ease bullying. Though there are some systems that allow victims of bullying, to report an incident, with an email sent to the administrator - this is completely different. With the ability to work on a world-wide level, this system is made with many other functionalities, such as Assign An Incident (After Notifying administrator through Email, Incident ID gets Populated in this Form, to be assigned to Teacher In Appropriate Grade), Take An Action (on Incident ID assigned to Teacher - Can Deny, if unavailable to handle), Monitor Behavior (for severe bullies, with graph populated through behavior monitoring parameters), all along with many Statistics provided to various different administrators, and easy-to-use Master data forms, all filtered appropriately through their rights, with an additional Super User panel to manage these administrators. Now with all this functionality, I'm learning about how to achieve copyright/patent for this application.
+
+<br/><br/>
+</span><br/>
+</div>	
+<!--==============================
+              footer
+=================================-->
+ <section class="padding full-width" style="background-color:#00001a">
+        <div class="s-12 l-6">
+          <div  style="font-size:11px;text-align:center;color:white">Programmed and Architectured by Om Amit Agarwal</div>
+        </div>
+      </section>
+</div>
+</body>
+</html>
