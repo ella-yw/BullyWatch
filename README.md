@@ -1,2 +1,2 @@
 # BullyWatch
-A smart system to report, factionalize, and monitor bullying incidents, generating real-time statistics on the nature of bullying happening in a public school. 
+A smart system to report and monitor bullying incidents by evaluating real-time statistics on the nature of bullying happening in a given location.
